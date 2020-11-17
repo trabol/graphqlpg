@@ -7,19 +7,19 @@ Esta aplicacion de ejemplo se basa en contenedores
 
 ### Para crear los contenedores ingresar el comando 
 
-- docker-compose up  o  docker-compose up --build
+- docker-compose up --build
 
 ### crear la base de datos
 
 - ir al url http://localhost:8889
-- ingresar usuario graphpl
+- ingresar usuario graphpl@gmail.com
 - ingresar password a1128f69-e6f7-4e93-a2df-3d4db6030abc
 
 - Agregar un nuevo servidor
 - nombre servidor test
 - cambiar a pestaña de conexion 
-- en nombre y direccion de servidor ingresar el ipaddressgateway del contendor de pg
-- cambiar usuario y password por los definidos anteriormente
+- en nombre y direccion de servidor ingresar el IPAddress(172.19.0.3) del contendor de pg
+- cambiar usuario graphpl y password a1128f69-e6f7-4e93-a2df-3d4db6030abc
 - puerto de la base 5432
 - nombre de la base postgres
 
