@@ -1,11 +1,12 @@
 # Typescript GraphQL & TypeORM mas Postgresql pg
 
 Esta aplicacion de ejemplo se basa en contenedores 
-1 node con graphql puerto 3000
-2 postgrest puerto 5432
-3 pg admin 8889
+- 1 node con graphql puerto 3000
+- 2 postgrest puerto 5432
+- 3 pg admin 8889
 
-Para crear los contenedores ingresar el comando 
+### Para crear los contenedores ingresar el comando 
+
 - docker-compose up  o  docker-compose up --build
 
 ### crear la base de datos
